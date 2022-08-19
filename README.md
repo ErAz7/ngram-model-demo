@@ -27,3 +27,4 @@ yarn build
 [npm]: https://www.npmjs.com/package/ngram-model
 [npm-shield]: https://img.shields.io/badge/npm-1.0.2-green?style=flat-square
 [ts-shield]: https://img.shields.io/badge/TypeScript-blue?style=flat-square
+[demo]: https://ngram-model-demo.vercel.app/
