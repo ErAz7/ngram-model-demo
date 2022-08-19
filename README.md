@@ -1,6 +1,10 @@
 # N-Gram Model Demo [![npm-shield]][npm] ![ts-shield]
 > A demo showcasing the usage of [ngram-model][npm] npm package
 
+## [Demo][demo]
+
+[Live demo here][demo]
+
 ## Run locally
 
 Run 
