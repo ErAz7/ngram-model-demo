@@ -11,7 +11,7 @@
     "author": "ErAz7",
     "license": "ISC",
     "dependencies": {
-        "ngram-model": "^0.1.0",
+        "ngram-model": "^1.0.1",
         "react": "^18.2.0",
         "react-dom": "^18.2.0",
         "webfontloader": "^1.6.28"
@@ -47,9 +47,9 @@
         "webpack-dev-server": "^4.9.3"
     },
     "repository": {
-            "type": "git",
-            "url": "git+https://github.com/ErAz7/ngram-model-demo.git"
-        },
+        "type": "git",
+        "url": "git+https://github.com/ErAz7/ngram-model-demo.git"
+    },
     "keywords": [
         "N-gram Model",
         "NLP",

@@ -3692,10 +3692,10 @@ neo-async@^2.6.2:
   resolved "https://registry.yarnpkg.com/neo-async/-/neo-async-2.6.2.tgz#b4aafb93e3aeb2d8174ca53cf163ab7d7308305f"
   integrity sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==
 
-ngram-model@^0.1.0:
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/ngram-model/-/ngram-model-0.1.0.tgz#e5c4ed666237d5f5344f07404b60c633cc13b79b"
-  integrity sha512-9f/ucEm2UDqe9weDgmjvEunwcchNqQwzXCu7w6zB9LyIuqm680AaHnh1aBxtzt4fQJNn6Tv5oQw7TscRFO6POg==
+ngram-model@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/ngram-model/-/ngram-model-1.0.1.tgz#d7e0616e6ced841ae5a9225efcae9e4e951af7a1"
+  integrity sha512-UdrKjF8YoJ4EYnpR0xqlqxHK4C2XyBX9T0MHL4EVijAlG/hAd//Fc8hmpLW0DsIe39y41gTgvEPCwB3l8CEAZw==
 
 no-case@^3.0.4:
   version "3.0.4"

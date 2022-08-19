@@ -21,5 +21,5 @@ yarn build
 ```
 
 [npm]: https://www.npmjs.com/package/ngram-model
-[npm-shield]: https://img.shields.io/badge/npm-1.0.0-green?style=flat-square
+[npm-shield]: https://img.shields.io/badge/npm-1.0.1-green?style=flat-square
 [ts-shield]: https://img.shields.io/badge/TypeScript-blue?style=flat-square
