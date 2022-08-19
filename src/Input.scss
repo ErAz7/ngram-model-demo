@@ -1,0 +1,22 @@
+.Input {
+    position: relative;
+
+    &-input {
+        width: 100%;
+        height: 100%;
+    }
+
+    &-suggestion {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        display: block;
+        box-sizing: border-box;
+        width: 100%;
+        height: 100%;
+        padding: 5px 8px;
+        cursor: pointer;
+        background-color: #dddddd;
+        box-shadow: 0px 0.5px 10px 0px #ffffff;
+    }
+}

@@ -1,0 +1,148 @@
+body,
+html {
+    margin: 0;
+    font-family: "Montserrat", "Arial", "Sans-Serif";
+    font-size: 14px;
+}
+
+svg {
+    fill: currentColor;
+}
+
+input {
+    font-size: inherit;
+    font-family: inherit;
+}
+
+.container {
+    $title-height: 35px;
+    $bottom-link-height: 35px;
+    $input-height: 30px;
+    $color-npm: #cc3534;
+    $color-github: #24292f;
+
+    padding: $title-height 0;
+
+    &__title {
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: flex;
+        align-items: center;
+        padding: 5px 10px;
+        box-sizing: border-box;
+        height: $title-height;
+        background-color: rgb(136, 194, 195);
+        color: white;
+        font-weight: bold;
+
+        &-logo {
+            object-fit: cover;
+            margin-right: 10px;
+            height: 100%;
+        }
+    }
+
+    &__credits {
+        position: fixed;
+        top: 0;
+        right: 0;
+        padding: 4px;
+        color: white;
+        background-color: rgb(50, 50, 50);
+        font-weight: bold;
+
+        &-link {
+            color: inherit;
+        }
+    }
+
+    &__footer-link {
+        position: fixed;
+        bottom: 0;
+        display: flex;
+        align-items: center;
+        box-sizing: border-box;
+        height: $bottom-link-height;
+        padding: 8px;
+        font-weight: bold;
+
+        &--npm {
+            left: 0;
+            border: 1px solid $color-npm;
+            border-left: none;
+            color: $color-npm;
+        }
+
+        &--github {
+            right: 0;
+            background-color: $color-github;
+            color: white;
+        }
+
+        &-logo {
+            margin-right: 10px;
+            height: 100%;
+            width: auto;
+        }
+    }
+
+    &__content {
+        position: fixed;
+        top: $title-height;
+        bottom: $bottom-link-height;
+        left: 0;
+        width: 100%;
+        box-sizing: border-box;
+        overflow: auto;
+        padding: 10px;
+        margin: 10px 0;
+
+        &-box {
+            margin-top: 10px;
+
+            &-label {
+                display: block;
+            }
+
+            &-input {
+                margin-top: 5px;
+                width: 300px;
+                height: $input-height;
+            }
+
+            &-select {
+                margin-top: 5px;
+            }
+
+            &-button {
+                background-color: rgb(50, 50, 50);
+                color: white;
+                cursor: pointer;
+                border: none;
+                padding: 4px 8px;
+
+                &:not(:first-child) {
+                    margin-left: 5px;
+                }
+
+                &:disabled {
+                    opacity: 0.6;
+                    cursor: no-drop;
+                }
+            }
+
+            &-result {
+                display: block;
+                height: 80px;
+                width: 300px;
+                box-sizing: border-box;
+                padding: 5px;
+                margin-top: $input-height + 10px;
+                overflow-y: scroll;
+                text-align: justify;
+                background-color: rgb(193, 206, 206);
+            }
+        }
+    }
+}
