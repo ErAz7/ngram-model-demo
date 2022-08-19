@@ -11,7 +11,7 @@
     "author": "ErAz7",
     "license": "ISC",
     "dependencies": {
-        "ngram-model": "^1.0.1",
+        "ngram-model": "^1.0.2",
         "react": "^18.2.0",
         "react-dom": "^18.2.0",
         "webfontloader": "^1.6.28"
